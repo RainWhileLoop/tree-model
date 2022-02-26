@@ -1,4 +1,4 @@
-package com.rwl.treemodel;
+package com.rwl.treemodel.model;
 
 import java.util.List;
 

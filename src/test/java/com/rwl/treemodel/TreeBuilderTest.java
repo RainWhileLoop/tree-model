@@ -1,6 +1,7 @@
 package com.rwl.treemodel;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.rwl.treemodel.model.TreeNode;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

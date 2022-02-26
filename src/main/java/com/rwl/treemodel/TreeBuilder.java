@@ -1,5 +1,7 @@
 package com.rwl.treemodel;
 
+import com.rwl.treemodel.model.TreeNode;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
