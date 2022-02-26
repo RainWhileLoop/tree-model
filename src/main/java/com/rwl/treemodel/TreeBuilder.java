@@ -16,16 +16,6 @@ public class TreeBuilder<T extends TreeNode> {
         return this;
     }
 
-    public T buildSingleTree() {
-        if (list == null || list.isEmpty()) {
-            return null;
-        }
-
-        T root = null;
-
-        return root;
-    }
-
     public List<T> buildTree() {
         if (list == null || list.isEmpty()) {
             return null;
