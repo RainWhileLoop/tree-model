@@ -51,7 +51,7 @@ public class TreeBuilder<T extends TreeNode> {
                     parent.addChild(node);
                     map.replace(node, false);
                 } else {
-                    throw new IllegalArgumentException("Cannot find parentId : " + node.getParentId());
+                    throw new IllegalArgumentException("Cannot find [parentId] : " + node.getParentId());
                 }
             }
         }
