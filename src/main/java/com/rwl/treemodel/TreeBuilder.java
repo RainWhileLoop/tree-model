@@ -14,6 +14,9 @@ public class TreeBuilder<T extends TreeNode> {
     }
 
     public TreeBuilder<T> withData(Collection<T> list) {
+        if(list == null) {
+            throw new IllegalArgumentException("[list] cannot be null!");
+        }
         this.list = list;
         return this;
     }
